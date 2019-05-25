@@ -7,9 +7,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-/**
- * Created by nando on 03/03/17.
- */
 @Repository
 public class SalaDao {
 
@@ -17,7 +14,6 @@ public class SalaDao {
     private EntityManager manager;
 
     public Sala findOne(Integer id) {
-
         return manager.find(Sala.class, id);
     }
 
