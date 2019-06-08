@@ -18,7 +18,7 @@ public class SalaForm {
 
     private List<Lugar> lugares = new ArrayList<>();
 
-	private BigDecimal preco;
+	private BigDecimal preco = new BigDecimal("0.0");;
 
 	public SalaForm() {
     }
